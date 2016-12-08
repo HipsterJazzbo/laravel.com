@@ -16,7 +16,13 @@
 	<![endif]-->
     <link href='https://fonts.googleapis.com/css?family=Miriam+Libre:400,700|Source+Sans+Pro:200,400,700,600,400italic,700italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="{{ elixir('assets/css/laravel.css') }}">
-	<link rel="apple-touch-icon" href="/favicon.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png?v=BGBzQM4P4N">
+	<link rel="icon" type="image/png" href="/assets/icons/favicon-32x32.png?v=BGBzQM4P4N" sizes="32x32">
+	<link rel="icon" type="image/png" href="/assets/icons/favicon-16x16.png?v=BGBzQM4P4N" sizes="16x16">
+	<link rel="manifest" href="/assets/icons/manifest.json?v=BGBzQM4P4N">
+	<link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg?v=BGBzQM4P4N" color="#f4645f">
+	<link rel="shortcut icon" href="/assets/icons/favicon.ico?v=BGBzQM4P4N">
+	<meta name="theme-color" content="#ffffff">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js"></script>
 </head>
 <body class="@yield('body-class', 'docs') language-php">
